@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_layout"
+        android:background="@drawable/edogawa"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            android:layout_alignParentBottom="true"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fireworks in Edogawa"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/event_name"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="July 11-12/Tokyo / Free"
+                android:textColor="@color/white"
+                android:id="@+id/other_Details"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                ></TextView>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

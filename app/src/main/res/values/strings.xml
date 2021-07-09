@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InternshalaTask</string>
+    <string name="explore_events">Explore Events</string>
+    <string name="categories">Categories</string>
+</resources>

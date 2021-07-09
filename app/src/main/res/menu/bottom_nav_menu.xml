@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/exlpore_mn"
+        android:icon="@drawable/ic_baseline_explore_24"
+        android:title="EXPLORE" />
+    <item
+        android:id="@+id/fvr_mn"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="WISHLIST" />
+
+    <item
+        android:id="@+id/search_mn"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="SEARCH" />
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="MESSAGES" />
+
+    <item
+        android:id="@+id/profile_mn"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="PROFILE" />
+
+
+
+</menu>
